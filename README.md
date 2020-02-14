@@ -1,2 +1,2 @@
 # nickable
-PRivate repository for my blog
+Private repository for my blog
