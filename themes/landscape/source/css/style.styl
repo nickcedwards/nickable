@@ -33,8 +33,9 @@ body
 .outer
   clearfix()
   max-width: (column-width + gutter-width) * columns + gutter-width
-  margin: 0 auto
   padding: 0 gutter-width
+  min-height: 0
+  margin: 0 auto
 
 .inner
   column(columns)
@@ -65,6 +66,15 @@ body
   background: color-background
   .mobile-nav-on &
     left: mobile-nav-width
+
+#non-footer-wrap
+  min-height: 100%
+  margin-bottom: - footer-height
+
+#non-footer-wrap:after
+  content: "";
+  display: block;
+  height: footer-height
 
 if sidebar and sidebar isnt bottom
   #main

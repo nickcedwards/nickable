@@ -1,7 +1,10 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  Outdoors: /categories/Outdoors
+  Food: /categories/Food
+  Computers: /categories/Computers
+  Archive: /archives
 rss: /atom.xml
 
 # Content
@@ -11,9 +14,8 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- category
+- about
 - tag
-- tagcloud
 - archive
 - recent_posts
 
@@ -35,3 +37,10 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+about: 'This is the blog of Nick Edwards. I live on New Zealand''s South Island
+and am into various kinds of adventures in the outdoors, computers and
+eating, cooking and growing food. For money, I develop control-system
+software for <a href="https://www.hamiltonjet.com/">Hamilton Jet</a>. I help maintain
+the website & IT systems for the <a href="https://ctc.org.nz">Christchurch Tramping Club</a>,
+and a long time ago I was a member of <a href="http://atlas.ch/">The ATLAS Collaboration.</a>'

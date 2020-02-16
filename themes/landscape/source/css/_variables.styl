@@ -2,16 +2,34 @@
 support-for-ie = false
 vendor-prefixes = webkit moz ms official
 
-// Colors
-color-default = #555
-color-grey = #999
-color-border = #ddd
-color-link = #258fb8
-color-background = #eee
+// Base colors
+//https://coolors.co/424342-244f26-256d1b-149911-1efc1e
+//https://coolors.co/424342-244f26-f7fff7-ffe66d-6397b0
+color-green = #244F26
+color-grey = #343a40
+color-green-lighter = #375F39
+color-green-even-lighter = #C3CFC3
+color-arsenic = #424342
+
+// Item colors
+color-header = color-green
+color-nav = color-green
+color-block-caption = color-green
+color-default = color-arsenic
+color-header-line = color-green
+//color-default = #555
+color-article-title = color-green
+//color-border = #ddd
+//color-border = #424342
+color-border = color-green-even-lighter
+color-link = #6397B0
+color-background = #fff
 color-sidebar-text = #777
-color-widget-background = #ddd
-color-widget-border = #ccc
-color-footer-background = #262a30
+color-widget-background = #fff
+color-widget-border = color-border
+//color-widget-border = #ccc
+color-footer-background = #142C15
+color-footer = #879F88
 color-mobile-nav-background = #191919
 color-twitter = #00aced
 color-facebook = #3b5998
@@ -23,7 +41,7 @@ font-sans = -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif
-font-serif = Georgia, "Times New Roman", serif
+font-serif = Playfair Display,Georgia,Times New Roman,serif
 font-mono = "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace
 font-icon = FontAwesome
 font-icon-path = "fonts/fontawesome-webfont"
@@ -41,11 +59,12 @@ banner-url = "images/banner.jpg"
 sidebar = hexo-config("sidebar")
 
 // Layout
-block-margin = 50px
+block-margin = 25px
 article-padding = 20px
 mobile-nav-width = 280px
 main-column = 9
 sidebar-column = 3
+footer-height = 70px;
 
 if sidebar and sidebar isnt bottom
   _sidebar-column = sidebar-column

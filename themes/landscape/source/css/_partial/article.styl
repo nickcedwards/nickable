@@ -26,13 +26,14 @@
   margin: 0 12px 1em
 
 .article-header
-  padding: article-padding article-padding 0
+  padding: 5px article-padding 0
 
 .article-title
   text-decoration: none
   font-size: 2em
   font-weight: bold
-  color: color-default
+  font-family: font-serif
+  color: color-article-title
   line-height: line-height-title
   transition: color 0.2s
   a&:hover
@@ -63,7 +64,7 @@
     max-width: 100%
     height: auto
     display: block
-    margin: auto
+    margin: 10px auto
   iframe
     border: none
   table
@@ -140,7 +141,7 @@
   clearfix()
   font-size: 0.85em
   line-height: line-height
-  border-top: 1px solid color-border
+  //border-top: 1px solid color-border
   padding-top: line-height
   margin: 0 article-padding article-padding
   a
